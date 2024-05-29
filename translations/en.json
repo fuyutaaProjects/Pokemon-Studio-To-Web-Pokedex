@@ -1,0 +1,36 @@
+{
+    "Stats": "Stats",
+
+    "Height & Weight": "Height & Weight",
+    "Height": "Height",
+    "Weight": "Weight",
+    "Species": "Species",
+
+    "Evolution": "Evolution",
+
+    "Experience": "Experience",
+    "Experience Type": "Experience Type",
+
+    "Breeding Info": "Breeding Info",
+    "Egg Groups": "Egg Groups",
+    "Hatch Steps": "Hatch Steps",
+    "Baby form": "Baby form",
+
+    "Abilities": "Abilities",
+
+
+    "Moves": "Moves",
+
+    "Name": "Name",
+    "Type": "Type",
+    "Category": "Category",
+    "PP": "PP",
+    "Power": "Power",
+    "Accuracy": "Accuracy",
+    "Level": "Level",
+    
+    "Level Learnable Moves": "Level Learnable Moves",
+    "Tutor Learnable Moves": "Tutor Learnable Moves",
+    "Breed Learnable Moves": "Breed Learnable Moves",
+    "Tech Learnable Moves": "Tech Learnable Moves"
+}

@@ -1,0 +1,36 @@
+{
+    "Stats": "Statistiques",
+
+    "Height & Weight": "Hauteur & Taille",
+    "Height": "Hauteur",
+    "Weight": "Poids",
+    "Species": "Espèce",
+
+    "Evolution": "Évolution",
+
+    "Experience": "Expérience",
+    "Experience Type": "Type d'expérience",
+
+    "Breeding Info": "Informations sur la reproduction",
+    "Egg Groups": "Groupes d'œufs",
+    "Hatch Steps": "Étapes d'éclosion",
+    "Baby form": "Forme de bébé",
+
+    "Abilities": "Capacités",
+
+    
+    "Moves": "Capacités",
+
+    "Name": "Nom",
+    "Type": "Type",
+    "Category": "Catégorie",
+    "PP": "PP",
+    "Power": "Puissance",
+    "Accuracy": "Précision",
+    "Level": "Niveau",
+    
+    "Level Learnable Moves": "Capacités apprises par montée de niveau",
+    "Tutor Learnable Moves": "Capacités apprises par le maître des capacités",
+    "Breed Learnable Moves": "Capacités apprises par reproduction",
+    "Tech Learnable Moves": "Capacités apprises par TM/CS"
+}

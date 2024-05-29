@@ -1,0 +1,960 @@
+{
+  "klass": "Dex",
+  "id": 0,
+  "dbSymbol": "national",
+  "startId": 1,
+  "csv": {
+    "csvFileId": 100063,
+    "csvTextIndex": 0
+  },
+  "creatures": [
+    {
+      "dbSymbol": "chlorofyte",
+      "form": 0
+    },
+    {
+      "dbSymbol": "chloropas",
+      "form": 0
+    },
+    {
+      "dbSymbol": "chloroqueen",
+      "form": 0
+    },
+    {
+      "dbSymbol": "pyrowatt",
+      "form": 0
+    },
+    {
+      "dbSymbol": "sonorette",
+      "form": 0
+    },
+    {
+      "dbSymbol": "amplam",
+      "form": 0
+    },
+    {
+      "dbSymbol": "hydrozaure",
+      "form": 0
+    },
+    {
+      "dbSymbol": "royauzaure",
+      "form": 0
+    },
+    {
+      "dbSymbol": "corauzaure",
+      "form": 0
+    },
+    {
+      "dbSymbol": "solepine",
+      "form": 0
+    },
+    {
+      "dbSymbol": "gorictus",
+      "form": 0
+    },
+    {
+      "dbSymbol": "sourissono",
+      "form": 0
+    },
+    {
+      "dbSymbol": "quokeridoo",
+      "form": 0
+    },
+    {
+      "dbSymbol": "relaja",
+      "form": 0
+    },
+    {
+      "dbSymbol": "dozero",
+      "form": 0
+    },
+    {
+      "dbSymbol": "shinollen",
+      "form": 0
+    },
+    {
+      "dbSymbol": "grillur",
+      "form": 0
+    },
+    {
+      "dbSymbol": "criquage",
+      "form": 0
+    },
+    {
+      "dbSymbol": "colaero",
+      "form": 0
+    },
+    {
+      "dbSymbol": "hybraero",
+      "form": 0
+    },
+    {
+      "dbSymbol": "vectime",
+      "form": 0
+    },
+    {
+      "dbSymbol": "mafiozo",
+      "form": 0
+    },
+    {
+      "dbSymbol": "sourot",
+      "form": 0
+    },
+    {
+      "dbSymbol": "wombrat",
+      "form": 0
+    },
+    {
+      "dbSymbol": "magmouette",
+      "form": 0
+    },
+    {
+      "dbSymbol": "lavoskour",
+      "form": 0
+    },
+    {
+      "dbSymbol": "cadavlaque",
+      "form": 0
+    },
+    {
+      "dbSymbol": "tromal",
+      "form": 0
+    },
+    {
+      "dbSymbol": "amprise",
+      "form": 0
+    },
+    {
+      "dbSymbol": "usboa",
+      "form": 0
+    },
+    {
+      "dbSymbol": "casko",
+      "form": 0
+    },
+    {
+      "dbSymbol": "gardamandre",
+      "form": 0
+    },
+    {
+      "dbSymbol": "epison",
+      "form": 0
+    },
+    {
+      "dbSymbol": "teledar",
+      "form": 0
+    },
+    {
+      "dbSymbol": "tentaj",
+      "form": 0
+    },
+    {
+      "dbSymbol": "chtuage",
+      "form": 0
+    },
+    {
+      "dbSymbol": "framboala",
+      "form": 0
+    },
+    {
+      "dbSymbol": "macaroala",
+      "form": 0
+    },
+    {
+      "dbSymbol": "carroflame",
+      "form": 0
+    },
+    {
+      "dbSymbol": "cremapin",
+      "form": 0
+    },
+    {
+      "dbSymbol": "limamillon",
+      "form": 0
+    },
+    {
+      "dbSymbol": "kapupillon",
+      "form": 0
+    },
+    {
+      "dbSymbol": "oddish",
+      "form": 0
+    },
+    {
+      "dbSymbol": "baltox",
+      "form": 0
+    },
+    {
+      "dbSymbol": "robarome",
+      "form": 0
+    },
+    {
+      "dbSymbol": "vilea",
+      "form": 0
+    },
+    {
+      "dbSymbol": "vileaect",
+      "form": 0
+    },
+    {
+      "dbSymbol": "gorgorm",
+      "form": 0
+    },
+    {
+      "dbSymbol": "demolien",
+      "form": 0
+    },
+    {
+      "dbSymbol": "hibours",
+      "form": 0
+    },
+    {
+      "dbSymbol": "plumours",
+      "form": 0
+    },
+    {
+      "dbSymbol": "bagicien",
+      "form": 0
+    },
+    {
+      "dbSymbol": "yggdracien",
+      "form": 0
+    },
+    {
+      "dbSymbol": "pandoux",
+      "form": 0
+    },
+    {
+      "dbSymbol": "dragougoux",
+      "form": 0
+    },
+    {
+      "dbSymbol": "plancto",
+      "form": 0
+    },
+    {
+      "dbSymbol": "errancton",
+      "form": 0
+    },
+    {
+      "dbSymbol": "peion",
+      "form": 0
+    },
+    {
+      "dbSymbol": "kadpeion",
+      "form": 0
+    },
+    {
+      "dbSymbol": "rejacid",
+      "form": 0
+    },
+    {
+      "dbSymbol": "carcapik",
+      "form": 0
+    },
+    {
+      "dbSymbol": "poisscarnaj",
+      "form": 0
+    },
+    {
+      "dbSymbol": "gigachrys",
+      "form": 0
+    },
+    {
+      "dbSymbol": "frainy",
+      "form": 0
+    },
+    {
+      "dbSymbol": "fraisyste",
+      "form": 0
+    },
+    {
+      "dbSymbol": "scarpin",
+      "form": 0
+    },
+    {
+      "dbSymbol": "labouro",
+      "form": 0
+    },
+    {
+      "dbSymbol": "yamete",
+      "form": 0
+    },
+    {
+      "dbSymbol": "rodeursan",
+      "form": 0
+    },
+    {
+      "dbSymbol": "tentacruel",
+      "form": 0
+    },
+    {
+      "dbSymbol": "rannaz",
+      "form": 0
+    },
+    {
+      "dbSymbol": "gennaz",
+      "form": 0
+    },
+    {
+      "dbSymbol": "runhark",
+      "form": 0
+    },
+    {
+      "dbSymbol": "detoceps",
+      "form": 0
+    },
+    {
+      "dbSymbol": "annihilaceps",
+      "form": 0
+    },
+    {
+      "dbSymbol": "alvouille",
+      "form": 0
+    },
+    {
+      "dbSymbol": "taurouille",
+      "form": 0
+    },
+    {
+      "dbSymbol": "aimantpeine",
+      "form": 0
+    },
+    {
+      "dbSymbol": "jokaimant",
+      "form": 0
+    },
+    {
+      "dbSymbol": "venipic",
+      "form": 0
+    },
+    {
+      "dbSymbol": "emeunimeu",
+      "form": 0
+    },
+    {
+      "dbSymbol": "echancarbon",
+      "form": 0
+    },
+    {
+      "dbSymbol": "fioloxik",
+      "form": 0
+    },
+    {
+      "dbSymbol": "vervu",
+      "form": 0
+    },
+    {
+      "dbSymbol": "verosion",
+      "form": 0
+    },
+    {
+      "dbSymbol": "posette",
+      "form": 0
+    },
+    {
+      "dbSymbol": "trabduction",
+      "form": 0
+    },
+    {
+      "dbSymbol": "suffog",
+      "form": 0
+    },
+    {
+      "dbSymbol": "sabluscade",
+      "form": 0
+    },
+    {
+      "dbSymbol": "tentassaut",
+      "form": 0
+    },
+    {
+      "dbSymbol": "crabouee",
+      "form": 0
+    },
+    {
+      "dbSymbol": "crabato",
+      "form": 0
+    },
+    {
+      "dbSymbol": "slitik",
+      "form": 0
+    },
+    {
+      "dbSymbol": "blocharj",
+      "form": 0
+    },
+    {
+      "dbSymbol": "bourgea",
+      "form": 0
+    },
+    {
+      "dbSymbol": "dention",
+      "form": 0
+    },
+    {
+      "dbSymbol": "caracamor",
+      "form": 0
+    },
+    {
+      "dbSymbol": "trepasseur",
+      "form": 0
+    },
+    {
+      "dbSymbol": "maquarter",
+      "form": 0
+    },
+    {
+      "dbSymbol": "garoar",
+      "form": 0
+    },
+    {
+      "dbSymbol": "bouri",
+      "form": 0
+    },
+    {
+      "dbSymbol": "raboutriz",
+      "form": 0
+    },
+    {
+      "dbSymbol": "conqueriz",
+      "form": 0
+    },
+    {
+      "dbSymbol": "hurlalanche",
+      "form": 0
+    },
+    {
+      "dbSymbol": "mauvaine",
+      "form": 0
+    },
+    {
+      "dbSymbol": "bapple",
+      "form": 0
+    },
+    {
+      "dbSymbol": "skeulo",
+      "form": 0
+    },
+    {
+      "dbSymbol": "requossement",
+      "form": 0
+    },
+    {
+      "dbSymbol": "cocortue",
+      "form": 0
+    },
+    {
+      "dbSymbol": "tortail",
+      "form": 0
+    },
+    {
+      "dbSymbol": "nosfoltaj",
+      "form": 0
+    },
+    {
+      "dbSymbol": "coraprenti",
+      "form": 0
+    },
+    {
+      "dbSymbol": "corofessor",
+      "form": 0
+    },
+    {
+      "dbSymbol": "voichou",
+      "form": 0
+    },
+    {
+      "dbSymbol": "recaille",
+      "form": 0
+    },
+    {
+      "dbSymbol": "wyvaurien",
+      "form": 0
+    },
+    {
+      "dbSymbol": "songita",
+      "form": 0
+    },
+    {
+      "dbSymbol": "songitatwo",
+      "form": 0
+    },
+    {
+      "dbSymbol": "zanitus",
+      "form": 0
+    },
+    {
+      "dbSymbol": "solavide",
+      "form": 0
+    },
+    {
+      "dbSymbol": "lunadae",
+      "form": 0
+    },
+    {
+      "dbSymbol": "brulotin",
+      "form": 0
+    },
+    {
+      "dbSymbol": "diablure",
+      "form": 0
+    },
+    {
+      "dbSymbol": "biyip",
+      "form": 0
+    },
+    {
+      "dbSymbol": "berchiot",
+      "form": 0
+    },
+    {
+      "dbSymbol": "berwouf",
+      "form": 0
+    },
+    {
+      "dbSymbol": "linfe",
+      "form": 0
+    },
+    {
+      "dbSymbol": "gnomeuille",
+      "form": 0
+    },
+    {
+      "dbSymbol": "flame",
+      "form": 0
+    },
+    {
+      "dbSymbol": "follesprit",
+      "form": 0
+    },
+    {
+      "dbSymbol": "charme",
+      "form": 0
+    },
+    {
+      "dbSymbol": "buisorna",
+      "form": 0
+    },
+    {
+      "dbSymbol": "cornera",
+      "form": 0
+    },
+    {
+      "dbSymbol": "cora",
+      "form": 0
+    },
+    {
+      "dbSymbol": "scarabebe",
+      "form": 0
+    },
+    {
+      "dbSymbol": "coleopierre",
+      "form": 0
+    },
+    {
+      "dbSymbol": "petribilis",
+      "form": 0
+    },
+    {
+      "dbSymbol": "satoon",
+      "form": 0
+    },
+    {
+      "dbSymbol": "maskoon",
+      "form": 0
+    },
+    {
+      "dbSymbol": "dryatyr",
+      "form": 0
+    },
+    {
+      "dbSymbol": "cosmog",
+      "form": 0
+    },
+    {
+      "dbSymbol": "cosmoem",
+      "form": 0
+    },
+    {
+      "dbSymbol": "solatyr",
+      "form": 0
+    },
+    {
+      "dbSymbol": "pakap",
+      "form": 0
+    },
+    {
+      "dbSymbol": "kapadepe",
+      "form": 0
+    },
+    {
+      "dbSymbol": "natu",
+      "form": 0
+    },
+    {
+      "dbSymbol": "comglas",
+      "form": 0
+    },
+    {
+      "dbSymbol": "manar",
+      "form": 0
+    },
+    {
+      "dbSymbol": "percaj",
+      "form": 0
+    },
+    {
+      "dbSymbol": "forouvrie",
+      "form": 0
+    },
+    {
+      "dbSymbol": "miltap",
+      "form": 0
+    },
+    {
+      "dbSymbol": "gentlepierre",
+      "form": 0
+    },
+    {
+      "dbSymbol": "chapodile",
+      "form": 0
+    },
+    {
+      "dbSymbol": "octotap",
+      "form": 0
+    },
+    {
+      "dbSymbol": "holotap",
+      "form": 0
+    },
+    {
+      "dbSymbol": "kookharism",
+      "form": 0
+    },
+    {
+      "dbSymbol": "kookabourrin",
+      "form": 0
+    },
+    {
+      "dbSymbol": "agluant",
+      "form": 0
+    },
+    {
+      "dbSymbol": "slimtrap",
+      "form": 0
+    },
+    {
+      "dbSymbol": "sealame",
+      "form": 0
+    },
+    {
+      "dbSymbol": "seagong",
+      "form": 0
+    },
+    {
+      "dbSymbol": "gippy",
+      "form": 0
+    },
+    {
+      "dbSymbol": "yaramagon",
+      "form": 0
+    },
+    {
+      "dbSymbol": "cetallery",
+      "form": 0
+    },
+    {
+      "dbSymbol": "polake",
+      "form": 0
+    },
+    {
+      "dbSymbol": "fouinours",
+      "form": 0
+    },
+    {
+      "dbSymbol": "kangastic",
+      "form": 0
+    },
+    {
+      "dbSymbol": "kangorigene",
+      "form": 0
+    },
+    {
+      "dbSymbol": "lancgourou",
+      "form": 0
+    },
+    {
+      "dbSymbol": "totama",
+      "form": 0
+    },
+    {
+      "dbSymbol": "crobol",
+      "form": 0
+    },
+    {
+      "dbSymbol": "egicroc",
+      "form": 0
+    },
+    {
+      "dbSymbol": "totesert",
+      "form": 0
+    },
+    {
+      "dbSymbol": "tyrogue",
+      "form": 0
+    },
+    {
+      "dbSymbol": "ornybreak",
+      "form": 0
+    },
+    {
+      "dbSymbol": "cromagla",
+      "form": 0
+    },
+    {
+      "dbSymbol": "megamagla",
+      "form": 0
+    },
+    {
+      "dbSymbol": "marbra",
+      "form": 0
+    },
+    {
+      "dbSymbol": "eclamas",
+      "form": 0
+    },
+    {
+      "dbSymbol": "marbramas",
+      "form": 0
+    },
+    {
+      "dbSymbol": "pingel",
+      "form": 0
+    },
+    {
+      "dbSymbol": "alpingouin",
+      "form": 0
+    },
+    {
+      "dbSymbol": "piskinus",
+      "form": 0
+    },
+    {
+      "dbSymbol": "jouflo",
+      "form": 0
+    },
+    {
+      "dbSymbol": "givrerable",
+      "form": 0
+    },
+    {
+      "dbSymbol": "pictik",
+      "form": 0
+    },
+    {
+      "dbSymbol": "fauchtik",
+      "form": 0
+    },
+    {
+      "dbSymbol": "cirampant",
+      "form": 0
+    },
+    {
+      "dbSymbol": "cireano",
+      "form": 0
+    },
+    {
+      "dbSymbol": "gelormi",
+      "form": 0
+    },
+    {
+      "dbSymbol": "jivrai",
+      "form": 0
+    },
+    {
+      "dbSymbol": "monkart",
+      "form": 0
+    },
+    {
+      "dbSymbol": "monklace",
+      "form": 0
+    },
+    {
+      "dbSymbol": "manquise",
+      "form": 0
+    },
+    {
+      "dbSymbol": "insy",
+      "form": 0
+    },
+    {
+      "dbSymbol": "milzen",
+      "form": 0
+    },
+    {
+      "dbSymbol": "feuillon",
+      "form": 0
+    },
+    {
+      "dbSymbol": "manectric",
+      "form": 0
+    },
+    {
+      "dbSymbol": "formin",
+      "form": 0
+    },
+    {
+      "dbSymbol": "silhom",
+      "form": 0
+    },
+    {
+      "dbSymbol": "gabarombr",
+      "form": 0
+    },
+    {
+      "dbSymbol": "panleon",
+      "form": 0
+    },
+    {
+      "dbSymbol": "bouffeleon",
+      "form": 0
+    },
+    {
+      "dbSymbol": "auberance",
+      "form": 0
+    },
+    {
+      "dbSymbol": "barbagneau",
+      "form": 0
+    },
+    {
+      "dbSymbol": "sucrovin",
+      "form": 0
+    },
+    {
+      "dbSymbol": "gourmantaz",
+      "form": 0
+    },
+    {
+      "dbSymbol": "scorgon",
+      "form": 0
+    },
+    {
+      "dbSymbol": "dracorpion",
+      "form": 0
+    },
+    {
+      "dbSymbol": "champlosion",
+      "form": 0
+    },
+    {
+      "dbSymbol": "nucloom",
+      "form": 0
+    },
+    {
+      "dbSymbol": "drono",
+      "form": 0
+    },
+    {
+      "dbSymbol": "roubot",
+      "form": 0
+    },
+    {
+      "dbSymbol": "klinroubot",
+      "form": 0
+    },
+    {
+      "dbSymbol": "excrok",
+      "form": 0
+    },
+    {
+      "dbSymbol": "bronzor",
+      "form": 0
+    },
+    {
+      "dbSymbol": "armumage",
+      "form": 0
+    },
+    {
+      "dbSymbol": "nurympher",
+      "form": 0
+    },
+    {
+      "dbSymbol": "irodonna",
+      "form": 0
+    },
+    {
+      "dbSymbol": "hermimite",
+      "form": 0
+    },
+    {
+      "dbSymbol": "brachyubra",
+      "form": 0
+    },
+    {
+      "dbSymbol": "sculti",
+      "form": 0
+    },
+    {
+      "dbSymbol": "argili",
+      "form": 0
+    },
+    {
+      "dbSymbol": "kanifien",
+      "form": 0
+    },
+    {
+      "dbSymbol": "siamwaff",
+      "form": 0
+    },
+    {
+      "dbSymbol": "martolfa",
+      "form": 0
+    },
+    {
+      "dbSymbol": "blezard",
+      "form": 0
+    },
+    {
+      "dbSymbol": "prezard",
+      "form": 0
+    },
+    {
+      "dbSymbol": "archeblezard",
+      "form": 0
+    },
+    {
+      "dbSymbol": "seel",
+      "form": 0
+    },
+    {
+      "dbSymbol": "arcanguy",
+      "form": 0
+    },
+    {
+      "dbSymbol": "nganguy",
+      "form": 0
+    },
+    {
+      "dbSymbol": "aquali",
+      "form": 0
+    },
+    {
+      "dbSymbol": "nudox",
+      "form": 0
+    },
+    {
+      "dbSymbol": "printhana",
+      "form": 0
+    },
+    {
+      "dbSymbol": "etemanta",
+      "form": 0
+    },
+    {
+      "dbSymbol": "hiverdam",
+      "form": 0
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="css/styles_pokedex.css">
+</head>
+<body>
+<header>
+    <div id="searchContainer">
+        <input type="text" id="searchBar" placeholder="Search for a Pokémon..." autocomplete="off">
+        <button data-language="fr"><img src="imgs/flag_fr.png" alt="Switch to french"></button>
+        <button data-language="en"><img src="imgs/flag_en.png" alt="Switch to english"></button>
+    </div>
+    <ul id="suggestions"></ul>
+</header>
+
+<div class="container">
+    <h1>Pokédex</h1>
+    <div id="pokemonData" class="grid-container"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+<footer>
+    <a href="https://github.com/fuyutaaProjects" target="_blank">Built by @fuyutaaProjects on GitHub</a>
+</footer>
+
+</html>

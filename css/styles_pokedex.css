@@ -1,0 +1,322 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1c22;
+    color: #e0e0e0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                                   header                                                                             */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #28242c;
+    position: relative;
+}
+
+#searchContainer {
+    display: flex;
+    align-items: center;
+}
+
+#searchBar {
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #3a3843;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+}
+
+#searchBar:focus {
+    border-color: #ffffff;
+}
+
+header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+header button img {
+    width: 30px;
+    height: 20px;
+}
+
+#suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    background-color: #2a2733;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    border: 1px solid #3a3843;
+    border-radius: 5px;
+}
+
+#suggestions li {
+    padding: 10px;
+    border-bottom: 1px solid #3a3843;
+    cursor: pointer;
+}
+
+#suggestions li:hover {
+    background-color: #3a3843;
+}
+
+#suggestions li:last-child {
+    border-bottom: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                                   body                                                                               */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.grid-container-layer1,
+.grid-container-layer2,
+.grid-container-layer3,
+.grid-container-layer4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.grid-item-large {
+    flex: 1;
+    border: 1px solid #3a3843;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #1d1c22;
+    text-align: center;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+
+.grid-container-layer3 .grid-item {
+    width: max-content;
+}
+
+.grid-container-layer4 img {
+    width: 100px;
+    height: auto;
+}
+
+.img-pokemon-types-layer1 {
+    width: 100px !important;
+    height: 25px !important;
+}
+
+.grid-container-layer1 img {
+    width: 250px;
+    height: 250px;
+}
+
+.type-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.type-images img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+
+.grid-container-layer2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.grid-container-layer1 h2,
+.grid-container-layer2 h2 {
+    margin-bottom: 0px;
+}
+
+
+
+.evolution-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.evolution-item p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+
+.grid-item {
+    border: 1px solid #24222a;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #1d1c22;
+    text-align: center;
+    min-width: 200px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 3px solid transparent;
+    border-radius: inherit;
+    transition: border-color 0.5s ease-in-out;
+}
+
+.grid-item:hover::before {
+    border-color: #3a3843;
+}
+
+.grid-item h2 {
+    margin-top: 0px;
+}
+
+span {
+    color: #8e99ab;
+    font-weight: bold;
+}
+
+.grid-container-layer3 .grid-item p {
+    margin-bottom: 10px;
+}
+
+.grid-container-layer4 .grid-item-large .grid-item {
+    margin: 20px;
+    height: auto;
+    width: auto;
+}
+
+.grid-container-layer4 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.grid-container-layer4 th,
+.grid-container-layer4 td {
+    border: 1px solid #3a3843;
+    padding: 8px;
+    background-color: #1d1c22;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                                    Stats                                                                             */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.stat-bar-container {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 2px;
+    width: 255px;
+    background-color: #555;
+}
+
+.stat-bar {
+    height: 20px;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+}
+
+.stat-value {
+    margin-left: 5px;
+}
+
+.stat-name {
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.stat-bar.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.stat-bar.orange {
+    background-color: rgb(255, 165, 0);
+}
+
+.stat-bar.yellow {
+    background-color: rgb(255, 255, 0);
+}
+
+.stat-bar.green {
+    background-color: rgb(0, 128, 0);
+}
+
+.stat-bar.blue {
+    background-color: rgb(0, 0, 255);
+}
+
+
+.stat-bar.green {
+    background-color: rgb(0, 128, 0);
+}
+
+.stat-bar.blue {
+    background-color: rgb(0, 0, 255);
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                                    Footer                                                                            */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+footer {
+    background-color: #28242c;
+    color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
