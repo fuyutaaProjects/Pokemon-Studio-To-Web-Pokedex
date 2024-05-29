@@ -21,3 +21,6 @@ If you did not understand, check out the GitHub repository of the pokédex from 
 5. Run the file `upscale_sprites` to upscale your fakemon sprites by 4 times the current size (preferably from VS Code).
 
 After GitHub does its checks (might take some time), your website should be up and running!
+
+
+### Please, credit me for the Pokédex. I put a credit in the footer, you can move it but don't forget to credit me :)
