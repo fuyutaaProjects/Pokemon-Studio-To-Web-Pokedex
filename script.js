@@ -326,12 +326,16 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         // Fetch abilities and their textIds
+        const displayedAbilities = new Set();
         const abilitiesData = await Promise.all(form.abilities.map(async ability => {
+        if (!displayedAbilities.has(ability)) {
+            displayedAbilities.add(ability);
             const textId = await getAbilityTextId(ability);
             const abilityNameTranslated = await getAbilityNameTranslated(textId);
             const description = await getAbilityDescription(textId);
             return `<span>${abilityNameTranslated}</span>: ${description}`;
-        }));
+        }
+    }));
 
         // Fetch moves and their data (pp, accuracy, etc...)
         const moveNames = form.moveSet.map(moveInfo => moveInfo.move);
@@ -397,29 +401,33 @@ function calculateColor(value) {
     let r, g, b;
 
     if (value <= 50) {
-        // Gradient from red to yellow
+        // Dégradé de rouge (de rouge foncé à rouge clair)
         r = 255;
-        g = Math.floor((value / 50) * 255);
-        b = 0;
-    } else if (value <= 100) {
-        // Gradient from yellow to green
-        r = Math.floor(255 - ((value - 50) / 50) * 255);
+        g = Math.floor((value / 50) * 50);
+        b = Math.floor((value / 50) * 50);
+    } else if (value <= 90) {
+        // Dégradé de jaune (de jaune foncé à jaune clair)
+        r = 255;
         g = 255;
-        b = 0;
-    } else if (value <= 200) {
-        // Gradient from green to cyan
-        r = 0;
+        b = Math.floor(((value - 50) / 50) * 50);
+    } else if (value <= 190) {
+        // Dégradé de vert (de vert foncé à vert clair)
+        r = Math.floor(((value - 100) / 100) * 50);
         g = 255;
-        b = Math.floor(((value - 100) / 100) * 255);
+        b = Math.floor(((value - 100) / 100) * 50);
     } else {
-        // Gradient from cyan to blue
-        r = 0;
-        g = Math.floor(255 - ((value - 200) / 55) * 255);
+        // Dégradé de bleu (de bleu foncé à bleu clair)
+        r = Math.floor(((value - 200) / 55) * 50);
+        g = Math.floor(((value - 200) / 55) * 50);
         b = 255;
     }
 
     return `rgb(${r}, ${g}, ${b})`;
 }
+
+
+
+
 
 // used for moves tables
 async function getCategoryImage(category) {
