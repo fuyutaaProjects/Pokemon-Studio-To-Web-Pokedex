@@ -2,11 +2,13 @@
 This is a tool to build a web-based pokédex of your pokémon fangame (based on psdk), in just 5 minutes!
 You just need to copy and paste some files/folders, rename some of them, and you'll get a web version of Pokémon Studio, ready to be used by your players.
 
-## Check out the Pokédex from Pokémon Impotia that uses this repository!
+⚠️ There is a bit of delay, because it's on GitHub and doesn't have really high perfomances. Takes about 3 seconds to load a pokemon's data. ⚠️
+
+## Check out the Pokédex from [Pokémon Impotia](https://pokemon-impotia.github.io) that uses this repository!
 
 ## How to make a GitHub Pages Website
-You need to make a repository named after this format: `{the_unsername_of_your_github_account}.github.io`.
-If you did not understand, check out the GitHub repository of the pokédex from my game:
+You need to make a repository named after this format: `{the_username_of_your_github_account}.github.io`.
+If you did not understand, check out GitHub's documentation: [GitHub Pages](https://pages.github.com/)
 
 ## How to setup:
 1. Copy the folders `moves`, `abilities`, `pokemon` located at `FANGAME_ROOT_FOLDER\Data\Studio` to the root of this folder.
