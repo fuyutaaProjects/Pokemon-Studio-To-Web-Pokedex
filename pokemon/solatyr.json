@@ -1,0 +1,60 @@
+{
+    "klass": "Specie",
+    "id": 792,
+    "dbSymbol": "solatyr",
+    "forms": [
+        {
+            "form": 0,
+            "height": 4,
+            "weight": 120,
+            "type1": "fairy",
+            "type2": "fire",
+            "baseHp": 77,
+            "baseAtk": 78,
+            "baseDfe": 78,
+            "baseSpd": 104,
+            "baseAts": 133,
+            "baseDfs": 130,
+            "evHp": 0,
+            "evAtk": 0,
+            "evDfe": 0,
+            "evSpd": 0,
+            "evAts": 2,
+            "evDfs": 1,
+            "evolutions": [],
+            "experienceType": 2,
+            "baseExperience": 306,
+            "baseLoyalty": 1,
+            "catchRate": 45,
+            "femaleRate": -1,
+            "breedGroups": [
+                15,
+                15
+            ],
+            "hatchSteps": 30720,
+            "babyDbSymbol": "__undef__",
+            "babyForm": 0,
+            "itemHeld": [],
+            "abilities": [
+                "shadow_shield",
+                "shadow_shield",
+                "shadow_shield"
+            ],
+            "frontOffsetY": 1,
+            "resources": {
+                "icon": "solatyr",
+                "iconShiny": "solatyr",
+                "front": "solatyr",
+                "frontShiny": "solatyr",
+                "back": "solatyr",
+                "backShiny": "solatyr",
+                "footprint": "solatyr",
+                "character": "solatyr",
+                "characterShiny": "solatyr",
+                "cry": "",
+                "hasFemale": false
+            },
+            "moveSet": []
+        }
+    ]
+}

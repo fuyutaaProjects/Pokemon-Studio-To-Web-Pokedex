@@ -1,0 +1,60 @@
+{
+  "klass": "Specie",
+  "id": 798,
+  "dbSymbol": "kartana",
+  "forms": [
+    {
+      "form": 0,
+      "height": 0.3,
+      "weight": 0.1,
+      "type1": "grass",
+      "type2": "steel",
+      "baseHp": 100,
+      "baseAtk": 140,
+      "baseDfe": 120,
+      "baseSpd": 80,
+      "baseAts": 70,
+      "baseDfs": 90,
+      "evHp": 0,
+      "evAtk": 3,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 2,
+      "baseExperience": 257,
+      "baseLoyalty": 1,
+      "catchRate": 255,
+      "femaleRate": -1,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 30720,
+      "babyDbSymbol": "__undef__",
+      "babyForm": 0,
+      "itemHeld": [],
+      "abilities": [
+        "beast_boost",
+        "beast_boost",
+        "beast_boost"
+      ],
+      "frontOffsetY": 14,
+      "resources": {
+        "icon": "798",
+        "iconShiny": "798",
+        "front": "798",
+        "frontShiny": "798",
+        "back": "798",
+        "backShiny": "798",
+        "footprint": "798",
+        "character": "798",
+        "characterShiny": "798",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": []
+    }
+  ]
+}

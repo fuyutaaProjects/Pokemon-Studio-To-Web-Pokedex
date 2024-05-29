@@ -1,0 +1,71 @@
+{
+    "klass": "Specie",
+    "id": 757,
+    "dbSymbol": "champlosion",
+    "forms": [
+        {
+            "form": 0,
+            "height": 0.6,
+            "weight": 4.8,
+            "type1": "poison",
+            "type2": "fire",
+            "baseHp": 60,
+            "baseAtk": 40,
+            "baseDfe": 50,
+            "baseSpd": 50,
+            "baseAts": 90,
+            "baseDfs": 50,
+            "evHp": 0,
+            "evAtk": 0,
+            "evDfe": 0,
+            "evSpd": 0,
+            "evAts": 1,
+            "evDfs": 0,
+            "evolutions": [
+                {
+                    "dbSymbol": "nucloom",
+                    "form": 0,
+                    "conditions": [
+                        {
+                            "type": "minLevel",
+                            "value": 33
+                        }
+                    ]
+                }
+            ],
+            "experienceType": 1,
+            "baseExperience": 64,
+            "baseLoyalty": 70,
+            "catchRate": 120,
+            "femaleRate": 12,
+            "breedGroups": [
+                14,
+                1
+            ],
+            "hatchSteps": 5120,
+            "babyDbSymbol": "champlosion",
+            "babyForm": 0,
+            "itemHeld": [],
+            "abilities": [
+                "corrosion",
+                "corrosion",
+                "oblivious"
+            ],
+            "frontOffsetY": 27,
+            "resources": {
+                "icon": "champlosion",
+                "iconShiny": "champlosion",
+                "front": "champlosion",
+                "frontShiny": "champlosion",
+                "back": "champlosion",
+                "backShiny": "champlosion",
+                "footprint": "champlosion",
+                "character": "champlosion",
+                "characterShiny": "champlosion",
+                "cry": "",
+                "hasFemale": false
+            },
+            "moveSet": []
+        }
+    ]
+}

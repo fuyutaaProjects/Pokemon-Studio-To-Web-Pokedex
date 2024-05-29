@@ -1,0 +1,299 @@
+{
+    "klass": "Specie",
+    "id": 679,
+    "dbSymbol": "nurympher",
+    "forms": [
+        {
+            "form": 0,
+            "height": 0.8,
+            "weight": 2,
+            "type1": "steel",
+            "type2": "ghost",
+            "baseHp": 80,
+            "baseAtk": 85,
+            "baseDfe": 70,
+            "baseSpd": 45,
+            "baseAts": 40,
+            "baseDfs": 45,
+            "evHp": 0,
+            "evAtk": 1,
+            "evDfe": 0,
+            "evSpd": 0,
+            "evAts": 0,
+            "evDfs": 0,
+            "evolutions": [
+                {
+                    "dbSymbol": "irodonna",
+                    "form": 0,
+                    "conditions": [
+                        {
+                            "type": "minLevel",
+                            "value": 35
+                        }
+                    ]
+                }
+            ],
+            "experienceType": 1,
+            "baseExperience": 65,
+            "baseLoyalty": 70,
+            "catchRate": 180,
+            "femaleRate": 50,
+            "breedGroups": [
+                10,
+                10
+            ],
+            "hatchSteps": 5120,
+            "babyDbSymbol": "nurympher",
+            "babyForm": 0,
+            "itemHeld": [],
+            "abilities": [
+                "no_guard",
+                "no_guard",
+                "no_guard"
+            ],
+            "frontOffsetY": 13,
+            "resources": {
+                "icon": "nurympher",
+                "iconShiny": "nurympher",
+                "front": "nurympher",
+                "frontShiny": "nurympher",
+                "back": "nurympher",
+                "backShiny": "nurympher",
+                "footprint": "nurympher",
+                "character": "nurympher",
+                "characterShiny": "nurympher",
+                "cry": "679cry.ogg",
+                "hasFemale": false
+            },
+            "moveSet": [
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "tackle",
+                    "level": 1
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "swords_dance",
+                    "level": 1
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "fury_cutter",
+                    "level": 5
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "metal_sound",
+                    "level": 8
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "pursuit",
+                    "level": 13
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "autotomize",
+                    "level": 18
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "shadow_sneak",
+                    "level": 20
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "aerial_ace",
+                    "level": 22
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "retaliate",
+                    "level": 26
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "slash",
+                    "level": 29
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "iron_defense",
+                    "level": 32
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "night_slash",
+                    "level": 35
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "power_trick",
+                    "level": 39
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "iron_head",
+                    "level": 42
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "sacred_sword",
+                    "level": 47
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "snore"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "spite"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "iron_defense"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "shock_wave"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "magnet_rise"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "iron_head"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "after_you"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "swords_dance"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "cut"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "toxic"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "double_team"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "reflect"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "rest"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "rock_slide"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "substitute"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "protect"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "false_swipe"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "swagger"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "attract"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "sleep_talk"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "return"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "frustration"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "hidden_power"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "rain_dance"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "rock_smash"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "facade"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "brick_break"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "secret_power"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "aerial_ace"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "gyro_ball"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "shadow_claw"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "flash_cannon"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "retaliate"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "confide"
+                },
+                {
+                    "klass": "BreedLearnableMove",
+                    "move": "destiny_bond"
+                },
+                {
+                    "klass": "BreedLearnableMove",
+                    "move": "metal_sound"
+                },
+                {
+                    "klass": "BreedLearnableMove",
+                    "move": "shadow_sneak"
+                },
+                {
+                    "klass": "BreedLearnableMove",
+                    "move": "wide_guard"
+                }
+            ]
+        }
+    ]
+}

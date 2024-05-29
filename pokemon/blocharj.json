@@ -1,0 +1,314 @@
+{
+    "klass": "Specie",
+    "id": 101,
+    "dbSymbol": "blocharj",
+    "forms": [
+        {
+            "form": 0,
+            "height": 1.2,
+            "weight": 66.6,
+            "type1": "electric",
+            "type2": "water",
+            "baseHp": 80,
+            "baseAtk": 60,
+            "baseDfe": 84,
+            "baseSpd": 52,
+            "baseAts": 114,
+            "baseDfs": 106,
+            "evHp": 0,
+            "evAtk": 0,
+            "evDfe": 0,
+            "evSpd": 0,
+            "evAts": 2,
+            "evDfs": 1,
+            "evolutions": [],
+            "experienceType": 1,
+            "baseExperience": 172,
+            "baseLoyalty": 70,
+            "catchRate": 60,
+            "femaleRate": -1,
+            "breedGroups": [
+                10,
+                10
+            ],
+            "hatchSteps": 5120,
+            "babyDbSymbol": "slitik",
+            "babyForm": 0,
+            "itemHeld": [
+                {
+                    "dbSymbol": "none",
+                    "chance": 0
+                },
+                {
+                    "dbSymbol": "none",
+                    "chance": 0
+                }
+            ],
+            "abilities": [
+                "static",
+                "soundproof",
+                "aftermath"
+            ],
+            "frontOffsetY": 25,
+            "resources": {
+                "icon": "blocharj",
+                "iconShiny": "blocharj",
+                "front": "blocharj",
+                "frontShiny": "blocharj",
+                "back": "blocharj",
+                "backShiny": "blocharj",
+                "footprint": "blocharj",
+                "character": "blocharj",
+                "characterShiny": "blocharj",
+                "cry": "101cry.ogg",
+                "hasFemale": false
+            },
+            "moveSet": [
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "magnetic_flux",
+                    "level": 1
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "charge",
+                    "level": 1
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "tackle",
+                    "level": 1
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "sonic_boom",
+                    "level": 1
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "spark",
+                    "level": 1
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "sonic_boom",
+                    "level": 4
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "eerie_impulse",
+                    "level": 6
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "spark",
+                    "level": 9
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "rollout",
+                    "level": 11
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "screech",
+                    "level": 13
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "charge_beam",
+                    "level": 16
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "swift",
+                    "level": 20
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "electro_ball",
+                    "level": 22
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "self_destruct",
+                    "level": 26
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "light_screen",
+                    "level": 29
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "magnet_rise",
+                    "level": 36
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "discharge",
+                    "level": 41
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "explosion",
+                    "level": 47
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "gyro_ball",
+                    "level": 54
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "mirror_coat",
+                    "level": 58
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "snore"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "magic_coat"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "signal_beam"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "shock_wave"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "magnet_rise"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "foul_play"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "hyper_beam"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "thunderbolt"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "thunder_wave"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "thunder"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "toxic"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "double_team"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "light_screen"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "flash"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "explosion"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "rest"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "substitute"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "thief"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "protect"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "swagger"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "sleep_talk"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "return"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "frustration"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "hidden_power"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "rain_dance"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "torment"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "facade"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "taunt"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "secret_power"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "gyro_ball"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "giga_impact"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "charge_beam"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "round"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "volt_switch"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "wild_charge"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "confide"
+                }
+            ]
+        }
+    ]
+}

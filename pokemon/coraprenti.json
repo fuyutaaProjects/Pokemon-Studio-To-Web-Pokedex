@@ -1,0 +1,95 @@
+{
+    "klass": "Specie",
+    "id": 129,
+    "dbSymbol": "coraprenti",
+    "forms": [
+        {
+            "form": 0,
+            "height": 0.9,
+            "weight": 10,
+            "type1": "water",
+            "type2": "psychic",
+            "baseHp": 48,
+            "baseAtk": 53,
+            "baseDfe": 46,
+            "baseSpd": 74,
+            "baseAts": 53,
+            "baseDfs": 52,
+            "evHp": 0,
+            "evAtk": 0,
+            "evDfe": 0,
+            "evSpd": 1,
+            "evAts": 0,
+            "evDfs": 0,
+            "evolutions": [
+                {
+                    "dbSymbol": "corofessor",
+                    "form": 0,
+                    "conditions": [
+                        {
+                            "type": "minLevel",
+                            "value": 24
+                        }
+                    ]
+                }
+            ],
+            "experienceType": 2,
+            "baseExperience": 40,
+            "baseLoyalty": 70,
+            "catchRate": 255,
+            "femaleRate": 50,
+            "breedGroups": [
+                12,
+                14
+            ],
+            "hatchSteps": 1280,
+            "babyDbSymbol": "coraprenti",
+            "babyForm": 0,
+            "itemHeld": [],
+            "abilities": [
+                "forewarn",
+                "serene_grace",
+                "magic_guard"
+            ],
+            "frontOffsetY": 19,
+            "resources": {
+                "icon": "coraprenti",
+                "iconShiny": "coraprenti",
+                "front": "coraprenti",
+                "frontF": "coraprenti",
+                "frontShiny": "coraprenti",
+                "frontShinyF": "coraprenti",
+                "back": "coraprenti",
+                "backF": "coraprenti",
+                "backShiny": "coraprenti",
+                "backShinyF": "coraprenti",
+                "footprint": "coraprenti",
+                "character": "coraprenti",
+                "characterShiny": "coraprenti",
+                "cry": "129cry.ogg",
+                "hasFemale": false
+            },
+            "moveSet": [
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "splash",
+                    "level": 1
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "tackle",
+                    "level": 15
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "flail",
+                    "level": 30
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "bounce"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "klass": "Specie",
+    "id": 10,
+    "dbSymbol": "grillur",
+    "forms": [
+        {
+            "form": 0,
+            "height": 0.3,
+            "weight": 2.9,
+            "type1": "bug",
+            "type2": "__undef__",
+            "baseHp": 20,
+            "baseAtk": 59,
+            "baseDfe": 29,
+            "baseSpd": 89,
+            "baseAts": 32,
+            "baseDfs": 34,
+            "evHp": 0,
+            "evAtk": 0,
+            "evDfe": 0,
+            "evSpd": 1,
+            "evAts": 0,
+            "evDfs": 0,
+            "evolutions": [
+                {
+                    "dbSymbol": "criquage",
+                    "form": 0,
+                    "conditions": [
+                        {
+                            "type": "minLevel",
+                            "value": 18
+                        }
+                    ]
+                }
+            ],
+            "experienceType": 1,
+            "baseExperience": 39,
+            "baseLoyalty": 70,
+            "catchRate": 255,
+            "femaleRate": 50,
+            "breedGroups": [
+                3,
+                3
+            ],
+            "hatchSteps": 3840,
+            "babyDbSymbol": "grillur",
+            "babyForm": 0,
+            "itemHeld": [
+                {
+                    "dbSymbol": "none",
+                    "chance": 0
+                },
+                {
+                    "dbSymbol": "none",
+                    "chance": 0
+                }
+            ],
+            "abilities": [
+                "swarm",
+                "swarm",
+                "run_away"
+            ],
+            "frontOffsetY": 30,
+            "resources": {
+                "icon": "grillur",
+                "iconShiny": "grillur",
+                "front": "grillur",
+                "frontShiny": "grillur",
+                "back": "grillur",
+                "backShiny": "grillur",
+                "footprint": "grillur",
+                "character": "grillur",
+                "characterShiny": "grillur",
+                "cry": "010cry.ogg",
+                "hasFemale": false
+            },
+            "moveSet": [
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "tackle",
+                    "level": 1
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "string_shot",
+                    "level": 1
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "bug_bite",
+                    "level": 15
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "snore"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "bug_bite"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "electroweb"
+                }
+            ]
+        }
+    ]
+}

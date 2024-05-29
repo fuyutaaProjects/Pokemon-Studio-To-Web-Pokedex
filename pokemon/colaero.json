@@ -1,0 +1,232 @@
+{
+    "klass": "Specie",
+    "id": 14,
+    "dbSymbol": "colaero",
+    "forms": [
+        {
+            "form": 0,
+            "height": 0.3,
+            "weight": 2.1,
+            "type1": "bug",
+            "type2": "flying",
+            "baseHp": 32,
+            "baseAtk": 58,
+            "baseDfe": 32,
+            "baseSpd": 78,
+            "baseAts": 50,
+            "baseDfs": 52,
+            "evHp": 0,
+            "evAtk": 0,
+            "evDfe": 0,
+            "evSpd": 1,
+            "evAts": 0,
+            "evDfs": 0,
+            "evolutions": [
+                {
+                    "dbSymbol": "hybraero",
+                    "form": 0,
+                    "conditions": [
+                        {
+                            "type": "minLevel",
+                            "value": 22
+                        }
+                    ]
+                }
+            ],
+            "experienceType": 1,
+            "baseExperience": 72,
+            "baseLoyalty": 70,
+            "catchRate": 200,
+            "femaleRate": 50,
+            "breedGroups": [
+                3,
+                3
+            ],
+            "hatchSteps": 3840,
+            "babyDbSymbol": "colaero",
+            "babyForm": 0,
+            "itemHeld": [
+                {
+                    "dbSymbol": "none",
+                    "chance": 0
+                },
+                {
+                    "dbSymbol": "none",
+                    "chance": 0
+                }
+            ],
+            "abilities": [
+                "hustle",
+                "swarm",
+                "hustle"
+            ],
+            "frontOffsetY": 28,
+            "resources": {
+                "icon": "colaero",
+                "iconShiny": "colaero",
+                "front": "colaero",
+                "frontShiny": "colaero",
+                "back": "colaero",
+                "backShiny": "colaero",
+                "footprint": "colaero",
+                "character": "colaero",
+                "characterShiny": "colaero",
+                "cry": "014cry.ogg",
+                "hasFemale": false
+            },
+            "moveSet": [
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "peck",
+                    "level": 1
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "string_shot",
+                    "level": 4
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "pin_missile",
+                    "level": 8
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "sand_attack",
+                    "level": 10
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "leer",
+                    "level": 12
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "wing_attack",
+                    "level": 14
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "leech_life",
+                    "level": 16
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "bug_bite",
+                    "level": 18
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "absorb",
+                    "level": 20
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "fury_attack",
+                    "level": 23
+                },
+                {
+                    "klass": "LevelLearnableMove",
+                    "move": "air_slash",
+                    "level": 30
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "iron_defense"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "bug_bite"
+                },
+                {
+                    "klass": "TutorLearnableMove",
+                    "move": "electroweb"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "roost"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "sleep_talk"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "cut"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "toxic"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "hidden_power"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "sunny_day"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "protect"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "frustration"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "return"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "double_team"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "aerial_ace"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "facade"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "rest"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "attract"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "round"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "acrobatics"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "swords_dance"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "struggle_bug"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "u_turn"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "substitute"
+                },
+                {
+                    "klass": "TechLearnableMove",
+                    "move": "confide"
+                }
+            ]
+        }
+    ]
+}
