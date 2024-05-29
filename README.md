@@ -3,6 +3,9 @@ This is a tool to build a web-based pokédex of your pokémon fangame (based on 
 You just need to copy and paste some files/folders, rename some of them, and you'll get a web version of Pokémon Studio, ready to be used by your players.
 
 ## Check out the Pokédex from Pokémon Impotia that uses this repository!
+![preview 1](./pokedex_preview_1.png)
+![preview 2](./pokedex_preview_2.png)
+
 
 ## How to make a GitHub Pages Website
 You need to make a repository named after this format: `{the_unsername_of_your_github_account}.github.io`.
