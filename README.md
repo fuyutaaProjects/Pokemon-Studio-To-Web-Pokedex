@@ -2,7 +2,7 @@
 This is a tool to build a web-based pokédex of your pokémon fangame (based on psdk), in just 5 minutes!
 You just need to copy and paste some files/folders, rename some of them, and you'll get a web version of Pokémon Studio, ready to be used by your players.
 
-⚠️ There is a bit of delay, because it's on GitHub and doesn't have really high perfomances. Takes about 3 seconds to load a pokemon's data. ⚠️
+⚠️There is a bit of delay, because it's on GitHub and doesn't have really high perfomances. Takes about 3 seconds to load a pokemon's data.⚠️
 
 ## Check out the Pokédex from [Pokémon Impotia](https://pokemon-impotia.github.io) that uses this repository!
 
@@ -23,3 +23,6 @@ If you did not understand, check out GitHub's documentation: [GitHub Pages](http
 5. Run the file `upscale_sprites` to upscale your fakemon sprites by 4 times the current size (preferably from VS Code).
 
 After GitHub does its checks (might take some time), your website should be up and running!
+
+
+### Please, credit me for the Pokédex. I put a credit in the footer, you can move it but don't forget to credit me :)
