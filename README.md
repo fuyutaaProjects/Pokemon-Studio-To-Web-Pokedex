@@ -1,5 +1,5 @@
-# Pokemon Studio To Web Pokedex
-This is a tool to build a web-based pokédex of your pokémon fangame (based on psdk), in just 5 minutes!
+# Pokemon Studio Pokedex Database To Website Pokedex
+This is a tool to build a web-based pokédex of your pokémon fangame (that's based on psdk), in just 5 minutes!
 You just need to copy and paste some files/folders, rename some of them, and you'll get a web version of Pokémon Studio, ready to be used by your players.
 
 ⚠️There is a bit of delay, because it's on GitHub and doesn't have really high perfomances. Takes about 3 seconds to load a pokemon's data.⚠️
