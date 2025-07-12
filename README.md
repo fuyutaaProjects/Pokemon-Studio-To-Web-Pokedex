@@ -29,4 +29,8 @@ However, many fan games include **Fakemons** (non-official Pokémon whose abilit
 
 5. Push your changes to GitHub. After the GitHub pipeline ends, your website should be up and running!
 
+## How does it work ?
+The tool streamlines the process by retrieving key files and folders from your RMXP Project, including national.json, individual pokemon JSONs, abilities JSONs, moves JSONs, CSV translation files, and pokefront sprites. 
+It then intelligently processes this data: for each Pokémon listed in your national.json Pokédex, it generates a consolidated JSON file. This consolidation is crucial because, within PSDK, a Pokémon's data is spread across many external files. Our tool compacts all relevant information—such as abilities (with their translated names and descriptions) and moves (with their translated names and battle details)—into a single, easily accessible pokemon_consolidated JSON file. This drastically reduces the number of queries needed, making your web Pokédex much faster and more efficient.
+
 #### Please, credit me for the Pokédex. I put a credit in the footer, you can move it but don't forget to credit me :)
