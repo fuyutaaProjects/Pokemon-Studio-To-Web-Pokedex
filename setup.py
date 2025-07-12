@@ -9,8 +9,8 @@ from PIL import Image
 # FANGAME_ROOT_FOLDER: The root directory of your RPG Maker XP PSDK project.
 # WEB_PROJECT_ROOT_FOLDER: The root directory of your web Pokédex project.
 
-FANGAME_ROOT_FOLDER = r'C:\Users\fuyutaa\Documents\GitHub\POKEMON-IMPOTIA\IMPOTIA RMXP' # e.g., r'C:\Users\YourUser\Documents\RPG XP Projects\MyPokemonGame'
-WEB_PROJECT_ROOT_FOLDER = r'C:\xampp\htdocs\Pokemon-Studio-To-Web-Pokedex' # e.g., r'C:\Users\YourUser\Documents\GitHub\my-pokedex-web'
+FANGAME_ROOT_FOLDER = r'ADD_RMXP_ROOT_FOLDER_HERE' # e.g., r'C:\Users\YourUser\Documents\RPG XP Projects\MyPokemonGame'
+WEB_PROJECT_ROOT_FOLDER = r'ADD_Pokemon-Studio-To-Web-Pokedex_ROOT_FOLDER_HERE' # e.g., r'C:\Users\YourUser\Documents\GitHub\my-pokedex-web'
 
 # Output directory within the web project for processed assets
 OUTPUT_DATA_FOLDER = os.path.join(WEB_PROJECT_ROOT_FOLDER, 'data')

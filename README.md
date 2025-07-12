@@ -21,7 +21,7 @@ However, many fan games include **Fakemons** (non-official Pokémon whose abilit
 ## How to setup:
 1. Fork my project into a repository named like that : `{the_username_of_your_github_account}.github.io`. It will generated a personal [GitHub Page](https://pages.github.com/).
 
-2. Run the setup_pokedex.py. 
+2. Edit the paths in setup.py at the top of the file, and then run the setup.py. 
 
 3. When prompted, input your RMXP PSDK project path.
 
