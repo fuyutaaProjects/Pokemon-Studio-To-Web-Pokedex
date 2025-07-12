@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex - Search</title> <link rel="stylesheet" href="css/styles_main.css">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <header>
+        <div id="searchContainer">
+            <input type="text" id="searchBar" placeholder="Search for a Pokémon..." autocomplete="off">
+        </div>
+        <ul id="suggestions"></ul>
+    </header>
+
+    <div class="container">
+        <p>The pokédex takes about 3 to 13 seconds to load a pokemon's data.</p>
+        <div id="pokemonData" class="grid-container"></div>
+    </div>
+
+    <script src="js/LanguageManager.js"></script>
+    <script src="js/LoadNavbar.js"></script> 
+
+    <script type="module" src="js/PokemonSearch/PokemonSearch.js"></script>
+</body>
+
+<footer>
+    <a href="https://github.com/fuyutaaProjects" target="_blank">Built by @fuyutaaProjects on GitHub</a>
+</footer>
+
+</html>

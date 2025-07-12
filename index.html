@@ -1,31 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokédex</title>
-    <link rel="stylesheet" href="css/styles_pokedex.css">
+    <title data-translate="page_title">Pokédex Hub</title>
+    <link rel="stylesheet" href="css/styles_main.css">
 </head>
 <body>
-<header>
-    <div id="searchContainer">
-        <input type="text" id="searchBar" placeholder="Search for a Pokémon..." autocomplete="off">
-        <button data-language="fr"><img src="imgs/flag_fr.png" alt="Switch to french"></button>
-        <button data-language="en"><img src="imgs/flag_en.png" alt="Switch to english"></button>
+    <div id="navbar-placeholder"></div>
+
+    <div class="container" style="text-align: center; margin-top: 50px;">
+        <h1 data-translate="welcome_message">Bienvenue sur le Hub du Pokédex</h1>
+        <p data-translate="hub_description">Vous êtes sur le hub.</p>
     </div>
-    <ul id="suggestions"></ul>
-</header>
 
-<div class="container">
-    <p>The pokédex takes about 3 to 13 seconds to load a pokemon's data.</p>
-    <div id="pokemonData" class="grid-container"></div>
-</div>
-
-<script src="script.js"></script>
+    <script src="js/LanguageManager.js"></script>
+    <script src="js/LoadNavbar.js"></script>
 </body>
-
-<footer>
-    <a href="https://github.com/fuyutaaProjects" target="_blank">Built by @fuyutaaProjects on GitHub</a>
-</footer>
-
 </html>

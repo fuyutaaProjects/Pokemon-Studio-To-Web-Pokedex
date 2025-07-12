@@ -1,0 +1,87 @@
+.navbar {
+    background-color: #28242c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar-brand a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Aligner tous les éléments verticalement */
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    background-color: #3a3843;
+}
+
+/* Styles pour les boutons de langue - contraintes sur le conteneur */
+.navbar-links button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    /* Contraindre STRICTEMENT la taille du bouton */
+    width: 32px !important;
+    height: 24px !important;
+    overflow: hidden !important; /* CRUCIAL: couper tout ce qui dépasse */
+    flex-shrink: 0 !important;
+}
+
+.navbar-links button:hover {
+    background-color: #3a3843;
+}
+
+/* Styles pour les flags - version "nucléaire" */
+.navbar-links button .language-flag {
+    width: 24px !important;
+    height: 16px !important;
+    max-width: 24px !important;
+    max-height: 16px !important;
+    min-width: 24px !important;
+    min-height: 16px !important;
+    object-fit: cover !important;
+    border-radius: 2px;
+    border: 1px solid #555;
+    display: block !important;
+    transform: scale(1) !important;
+    box-sizing: border-box !important;
+    /* Solution ultime si rien ne marche */
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.navbar-links button:hover .language-flag {
+    opacity: 0.8;
+}

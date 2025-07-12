@@ -14,5 +14,5 @@ def upscale_images(directory):
             except Exception as e:
                 print(f"Error processing '{filename}': {e}")
 
-directory = "pokefront"
+directory = "data/pokefront"
 upscale_images(directory)
